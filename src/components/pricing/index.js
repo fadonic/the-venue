@@ -6,7 +6,11 @@ class Pricing extends Component {
   state = {
     pricing: [100, 200, 300],
     positions: ['Balcony', 'Medium', 'Start'],
-    desc: ['test1', 'test2', 'test3'],
+    desc: [
+      'Lorem ipsum dolor sit, amet',
+      'Lorem ipsum dolor sit, amet',
+      'Lorem ipsum dolor sit, amet'
+    ],
     linkTo: ['', '', ''],
     delay: [500, 0, 500]
   }

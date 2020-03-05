@@ -8,7 +8,7 @@ const MyButton = props => {
       href=''
       varient='contained'
       size='small'
-      style={{ background: props.bck, color: props.color }}
+      style={{ background: props.bck, color: props.color, padding: '10px' }}
     >
       <img src={TicketIcon} className='iconImage' alt='icon_button' />
       {props.text}
